@@ -1,6 +1,6 @@
 # ATM demo app
 
-# Deploment procedures 
+# Deployment procedures 
 
 # 1) Creating netlify account if you do not have one
 
