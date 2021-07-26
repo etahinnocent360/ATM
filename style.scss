@@ -1,13 +1,17 @@
 
 body{
 	background: linear-gradient(20deg, white , rgba(6, 85, 99, 0.336) );
+	background-image: url(./bank4.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .container{
 	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.555);
 	margin-top: 100px;
-	z-index: 10;
-	// background: linear-gradient(20deg, rgb(179, 208, 233), white);
+	z-index: 100;
+	border-radius: 4px;
+	background-color: white;
 }
 
 @media (max-width: 720px){
