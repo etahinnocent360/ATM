@@ -1,6 +1,6 @@
 body {
   background: linear-gradient(20deg, white, rgba(6, 85, 99, 0.336));
-  background-image: url(./bank4.svg);
+  background-image: url(./demo2.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -11,6 +11,9 @@ body {
   z-index: 100;
   border-radius: 4px;
   background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./demo4.svg);
 }
 
 @media (max-width: 720px) {
