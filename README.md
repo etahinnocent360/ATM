@@ -1,0 +1,15 @@
+# ATM demo app
+
+# Deploment procedures 
+
+# 1) Creating netlify account if you do not have one
+
+#push app to github 
+
+# 3) Connect netlify with github choose a repository, and select the branch to be deployed.
+Branch is to  auto deploy in order for netlify to automatically deploy any changes made on the branch.
+
+# 4) once deployed set a custom domain for the site
+
+# 5)secure site with https
+ 
