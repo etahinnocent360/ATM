@@ -1,0 +1,11 @@
+
+body{
+	background: linear-gradient(20deg, white , rgb(0, 72, 130) );
+}
+
+.container{
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.555);
+	margin-top: 100px;
+	z-index: 10;
+	background: linear-gradient(20deg, rgb(0, 72, 130), white);
+}
