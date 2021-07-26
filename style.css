@@ -1,10 +1,15 @@
 body {
-  background: linear-gradient(20deg, white, #0f4572);
+  background: linear-gradient(20deg, white, rgba(115, 182, 236, 0.308));
 }
 
 .container {
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.555);
   margin-top: 100px;
   z-index: 10;
-  background: linear-gradient(20deg, #0d4470, white);
+}
+
+@media (max-width: 720px) {
+  .btn {
+    float: right;
+  }
 }
