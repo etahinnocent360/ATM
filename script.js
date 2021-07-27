@@ -167,7 +167,7 @@ app.controller('MainCtrl', function ($scope) {
 
   var cleanAccount = function () {
     var account = {
-      name: 'Etah innocent',
+      name: 'Customer',
       startingBalace: 100.00,
       runningBalance: 1000000
     }
