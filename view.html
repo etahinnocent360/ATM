@@ -5,8 +5,50 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	
+
+
+
+
+
+
+
+	     <div class="wrapper">
+            <form class="form1" action="http://google.com">
+                <div class="formtitle">
+                    Enter the password to proceed
+                </div>
+
+                <div class="input nobottomborder">
+                    <div class="inputtext">
+                        Password:
+                    </div>
+
+                    <div class="inputcontent">
+                        <input type="password" id="password" /><br />
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <input class="orangebutton" type="button" value="Login" onclick="checkPassword()" />
+                </div>
+            </form>
+        </div>
+
+       <script>
+	       var password = 1234
+      function checkPassword(){
+       if(document.getElementById('password').value == password){
+        alert('Correct Password!'); 
+          location.href = "./index.html";
+         } else {
+         alert('Wrong Password!');
+          return false;
+        }
+       }
+      </script>
 </body>
 </html>
