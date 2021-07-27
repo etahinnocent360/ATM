@@ -9,46 +9,48 @@
 </head>
 <body>
 	
+<div id="container">
+        <div id="tabs">
+            <p id="lt" class="tabs" onclick="loginTabFun()">Log in</p>
+            <p id="rt" class="tabs" onclick="regTabFun()">Register</p>
 
-
-
-
-
-
-
-	     <div class="wrapper">
-            <form class="form1" action="http://google.com">
-                <div class="formtitle">
-                    Enter the password to proceed
-                </div>
-
-                <div class="input nobottomborder">
-                    <div class="inputtext">
-                        Password:
-                    </div>
-
-                    <div class="inputcontent">
-                        <input type="password" id="password" /><br />
-                    </div>
-                </div>
-
-                <div class="buttons">
-                    <input class="orangebutton" type="button" value="Login" onclick="checkPassword()" />
-                </div>
-            </form>
+            <div id="clear"></div>
         </div>
 
-       <script>
-	       var password = 1234
-      function checkPassword(){
-       if(document.getElementById('password').value == password){
-        alert('Correct Password!'); 
-          location.href = "./atm.html";
-         } else {
-         alert('Wrong Password!');
-          return false;
-        }
-       }
-      </script>
+        <div id="cont">
+            <div id="login" class="comm">
+                <h3>Sign in</h3>
+
+                <input class="all" id="se" type="email" placeholder="Email" required/>
+                <input class="all" id="sp" type="password" placeholder="Password" required/>
+                <input class="all" type="submit" onclick="login()" value="Submit"/>
+
+                <p onclick="forTabFun()">Forget Password?</p>
+            </div>
+            <div id="register" class="comm">
+                <h3>Register</h3>
+
+                <input class="all" id="re" type="email" placeholder="Email" required/>
+                <input class="all" id="rp" type="password" placeholder="Password" required/>
+                <input class="all" id="rrp" type="password" placeholder="Re write Password" required/>
+                <input class="all" type="submit" onclick="register()" value="Submit"/>
+
+            </div >
+            <div id="forgot" class="comm">
+            <h3>Forgot Password</h3>
+            <div>
+                <input id="fe" type="email" placeholder="Email" required/>
+                <input type="submit" onclick="forgot()" value="Submit"/>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!--<div id="footer">
+        <h2>By. Mansoor Amin </br> Roll No. 1941</h2>
+
+    </div>-->
+<!-- partial -->
+  <script  src="./script.js"></script>
+
 </body>
 </html>

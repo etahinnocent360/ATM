@@ -24,117 +24,90 @@ body {
 }
 
 * {
-  box-sizing: border-box;
-  margin: 0;
   padding: 0;
+  margin: 0;
+  /*box-size:border-box;*/
 }
 
-body {
-  background-color: #1d1d1d;
+#container {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 150px;
 }
 
-::selection {
-  background-color: transparent;
-}
-
-.screen {
-  height: 75px;
-  width: 225px;
-  border-radius: 15px;
-  border: 8px solid #2b2b2b;
-  background-color: #111;
-  font-size: 50px;
-  color: limegreen;
-  padding: 0px 20px 0px 20px;
-  letter-spacing: 26px;
-  font-family: 'VT323', monospace;
-  position: relative;
-}
-
-.flasher {
-  content: "";
-  display: block;
-  width: 30px;
-  height: 5px;
-  background-color: limegreen;
-  position: absolute;
-  top: 55px;
-  left: 20px;
-  animation: blink 1s linear infinite;
-  -webkit-animation: blink 1s linear infinite;
-}
-
-.keypad_wrapper {
-  position: relative;
-  width: 225px;
-  height: 375px;
-  background-color: #2b2b2b;
-  margin: 100px auto;
-}
-
-.key {
-  width: 75px;
-  height: 75px;
+.tabs {
+  display: table-cell;
+  width: 30%;
+  /* background-color: rgba(11, 177, 224, 0.82); */
+  padding: 10px;
   float: left;
-  border-radius: 15px;
-  border: 8px solid #2b2b2b;
-  line-height: 58px;
   text-align: center;
-  font-size: 50px;
-  background-color: #3b3b3b;
-  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.5), inset 0px 1px 0px rgba(255, 255, 255, 0.2);
-  cursor: pointer;
-  text-shadow: 0px -2px 2px rgba(0, 0, 0, 0.5), 0px 1px 2px rgba(255, 255, 255, 0.4);
-  color: #eee;
-}
-
-.key:hover {
-  background-color: #4b4b4b;
-}
-
-.key:active {
-  background-color: #333;
-  box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2), inset 0px 2px 0px rgba(0, 0, 0, 0.5);
-  color: #aaa;
-  line-height: 62px;
-}
-
-.key.last {
+  vertical-align: middle;
+  border: 2px solid #ffffff;
+  border-bottom: 0px;
   position: relative;
-  left: 75px;
+  font-size: 1.3em;
+  color: #ffffff;
 }
 
-.notification {
-  color: limegreen;
-  font-family: 'VT323', monospace;
-  text-align: center;
-  font-size: 40px;
+.tabs:hover, p {
+  cursor: pointer;
+}
+
+#lt {
+  background-color: #0c84bd;
+}
+
+#cont {
+  width: 100%;
+  height: 300px;
+  background-color: rgba(11, 177, 224, 0.82);
+  border: 2px solid #ffffff;
+}
+
+.all {
+  display: block;
+  width: 250px;
+  margin: 10px 13px;
+  padding: 10px;
+  font-size: 1.3em;
+  color: rgba(11, 177, 224, 0.82);
+  outline: 2px solid #ffffff;
+}
+
+#clear {
+  clear: both;
+}
+
+.comm {
   position: absolute;
-  width: 225px;
-  top: 15px;
-  display: none;
+  visibility: hidden;
 }
 
-@keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+#login {
+  visibility: visible;
 }
 
-@-webkit-keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+h3 {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px 15px;
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+#forgot h3 {
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#forgot div {
+  margin-top: 30px;
+}
+
+p {
+  padding: 10px 15px;
+  font-size: 1.3em;
+  color: #ffffff;
 }
