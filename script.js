@@ -245,4 +245,6 @@ app.directive('moneywarn', function () {
 
 
 
- 
+ const foo = [2,1,5];
+ const [n] =foo;
+ console.log(n)
