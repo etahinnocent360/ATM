@@ -135,7 +135,7 @@ app.controller('MainCtrl', function ($scope) {
     var account = {
       name: 'Customer',
       startingBalace: 100.00,
-      runningBalance: 1000000
+      runningBalance: 100.00
     }
     return account;
   };
