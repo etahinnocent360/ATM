@@ -100,7 +100,7 @@ function login() {
     alert("Password does not match.");
     return;
   } else {
-    alert(email + " yor are login Now \n welcome to our website.");
+    alert(email + " yor are login Now \n welcome to our services.");
     document.getElementById("se").value = "";
     document.getElementById("sp").value = "";
      location.href = "./atm.html";
