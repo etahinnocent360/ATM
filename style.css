@@ -69,12 +69,13 @@ th {
 
 #lt {
   background-color: #0c84bd;
+  width: 162px;
 }
 
 #cont {
   width: 100%;
   height: 300px;
-  background-color: rgba(11, 177, 224, 0.82);
+  background-color: rgba(0, 0, 0, 0.82);
   border: 2px solid #ffffff;
 }
 
@@ -86,6 +87,11 @@ th {
   font-size: 1.3em;
   color: rgba(11, 177, 224, 0.82);
   outline: 2px solid #ffffff;
+}
+
+input[type="submit"] {
+  width: 272px;
+  color: #6e6e6e;
 }
 
 #clear {
