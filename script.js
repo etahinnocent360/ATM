@@ -194,6 +194,7 @@ app.directive('moneywarn', function () {
           element.addClass('alert-warning');
           element.removeClass('alert-danger');
         } else if (newValue < warningLevel) {
+          // alert('you can not make this transaction').location.href =('./index.html')
           element.addClass('alert-danger');
         } else {
           element.removeClass('alert-warning');
