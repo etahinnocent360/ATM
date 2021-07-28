@@ -68,12 +68,17 @@ float: right;
 
         #lt {
             background-color: rgb(12, 132, 189);
-            width: 162px;
+            width: 123px;
+        }
+        #rt{
+            width: 128px;
+            margin-left: 1px;
         }
         #cont {
             width: 100%;
             height: 300px;
             background-color: rgba(0, 0, 0, 0.82);
+            background-image: url(./demo4.svg);
             border: 2px solid #ffffff;
         }
 
